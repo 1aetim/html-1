@@ -1,1 +1,37 @@
-ainda n sei oq colocar kkk
+body { 
+background-color:#66666;
+}
+#main {
+width:1000px;
+height:850px;
+background-color:#12345;
+}
+#topo {
+width:1000px;
+height:150px;
+background-color:#43234;
+}
+#menu {
+width:1000px;
+height:50px;
+background-color:#4590;
+display:table-caption;
+text-align:center;
+}
+#menu ul li {
+list-style:none;
+display:inline;
+background-color:black;
+padding:15px;
+}
+#menu ul li a {
+font-family:Times New Roman;
+font-size:15px;
+color:white;
+text-decoration:none;
+}
+#menu ul li a:hover
+{
+background-color:#4567;
+padding:5px;
+}
