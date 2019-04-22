@@ -4,9 +4,22 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="icon" href="img.png">
-	</head>
-	<body>
-	<div>
+</head>
+<body>
+	<div id="main">
+	<div id="topo">
 	</div>
-	</body>
-	</html>
+	<div id="menu">
+		<ul>
+			<li> <a href="insertlink.html"> HOME </li>
+			<li> <a href="insertlink1.html"> PAG1 </li>
+			<li> <a href="insertlink2.html"> PAG2 </li>
+			<li> <a href="insertlink3.html"> PAG3 </li>
+		</ul>
+	<div id="content">
+	</div>
+	<div id="rodape">
+	</div>
+	</main>
+</body>
+</html>
