@@ -1,0 +1,73 @@
+body{
+	background-image:url("https://img.icons8.com/windows/140/avengers.png");
+	background-color:#eaeaea;
+}
+#main{
+	width:1000px;/*largura*/
+	height:1544px;/*altura*/
+	margin:140px 125px 140px;/*é margem do site*/
+	background-color:#f8f2e8;
+}
+#topo {
+	width:1000px;
+	height:150px;
+	background-color:#000000;
+	text-align:center;/*alinhamento do texto*/
+}
+#topo b{
+	font-family:Arial;
+	font-size:50px;
+	color:#000000;
+}
+#menu {
+	width:1000px;
+	height:50px;
+	background-color:#2a2a2a; 
+	display:table-caption;/*efeito na letra*/
+	text-align:center;
+}
+#menu ul li{
+	list-style:none;/*estilo da lista*/
+	display:inline;
+	padding:4px;/*espaçamento*/
+}
+#menu ul li a{
+	font-family:Arial;/*tipo da fonte*/
+	font-size:20px;/*tamanho da fonte*/
+	color:#ffffff;/*cor da fonte*/
+	text-decoration:none;
+}
+#menu ul li a:hover{/*quando poe o mouse em cima*/
+	background-color:#7a0606;
+	padding:5px;
+}
+#content{
+	font-family:Arial;
+	font-size:20px;
+	color:#ff0000;
+	width:1000px;
+	height:1333px;
+	background-color:#ffffff;
+	text-align:right;
+}
+#content ul li{
+	display:inline;
+	margin:50px;
+}
+#content ul li a{
+font-family:Arial;
+	font-size:18px;
+	color:#000000;
+}
+#content ul li a:hover{
+	background-color:#dcd7e0;
+}
+#rodape{
+	width:1000px;
+	height:12px;
+	background-color:#000000;
+	font-family:Arial;
+	font-size:10px;
+	color:#ffffff;
+	text-align:center;
+}
