@@ -5,6 +5,15 @@
 body {
 	margin:0;
 	padding:0;
+	background-color:#161616
+}
+h1 {
+	/*font-family: Century Gothic, sans-serif;*/
+	font-family: Comic Sans MS, sans-serif;
+	font-size:20pt;
+	margin: 15px 50px 0px 50px;
+	padding-top:20px;
+	color: white;
 }
 #cabecalho {
 	width:100%;
@@ -48,11 +57,19 @@ body {
 #cabecalho li:hover a{
 	padding-bottom:9px;
 }
+#filmes {
+	width:80%;
+	height:4650px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	margin:50px auto 0px auto;
+	background-color:#232323;
+}
 #corpo {
 	width:80%;
 	height:1000px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 	margin:50px auto 0px auto;
+	background-color:#232323;
 }
 #corpo p {
 	font-family: Consolas, sans-serif;
@@ -61,18 +78,6 @@ body {
 	margin:0px 50px 50px 50px;
 	text-indent:1.25cm;
 }
-#corpo h1 {
-	font-family: 'Marvel', sans-serif;
-	font-size:20pt;
-	margin:50px 50px 15px 50px;
-	padding-top:50px;
-}
-/*#corpo img {
-	width:202px;
-	height:300px;
-	margin-left:49px;
-	margin-bottom:49px;
-}*/
 #rodape {
 	width:100%;
 	height:80px;
@@ -80,22 +85,21 @@ body {
 	background-color:#ed1d24;
 }
 
-div#corpo figure {
+#filmes figure {
 	position:relative;
-	width:202px;
+	width:20%;
 	height:300px;
 	border: 1px solid white;	
 	box-shadow: 1px 1px 4px black;
 	float:left;
-	margin:3%;
+	margin-right:0;
 }
-div#corpo figure img {
+#filmes figure img {
 	width:100%;
 	height:100%;
-	margin:0;
-	transition: opacity 0.5s
+	transition: opacity 0.5s;
 }
-div#corpo figure p.fig {
+#filmes figure p.fig {
 	position: absolute;
 	top:0;
 	width:100%;
@@ -105,14 +109,30 @@ div#corpo figure p.fig {
 	text-align:center;
 	font-family:Consolas, sans-serif;
 	font-size:90%;
-	text-indent:0.5cm;
+	text-indent:0;
 	margin:5px 0px 0px 0px;
 	padding:5px;
 	box-sizing: border-box;
+	color:white;
 }
-div#corpo figure:hover p.fig {
+#filmes span {
+	font-weight:bold;
+	color:red;
+}
+#filmes figure:hover p.fig {
 	display:inline-block;;
 }
-div#corpo figure:hover img {
+#filmes figure:hover img {
 	opacity:0.2;
+}
+#rodape {
+	position:relative;
+}
+#pr1 {
+	text-align:center;
+	position:absolute;
+	width:100%;
+	font-family:Consolas;
+	top:5px;
+	color:white;
 }
