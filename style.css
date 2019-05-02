@@ -11,16 +11,16 @@ h1 {
 	/*font-family: Century Gothic, sans-serif;*/
 	font-family: Comic Sans MS, sans-serif;
 	font-size:20pt;
-	margin: 15px 50px 0px 50px;
+	margin:0% 0% 0% 4%;
 	padding-top:20px;
 	color: white;
 }
 .titulo {
 	font-family: Comic Sans MS, sans-serif;
 	font-size:20pt;
-	margin: 20px 50px 20px 50px;
-	padding-top:20px;
 	color: white;
+	padding-top:40px;
+	margin:0% 0% 0% 4%;
 }
 #cabecalho {
 	width:100%;
@@ -64,13 +64,6 @@ h1 {
 #cabecalho li:hover a{
 	padding-bottom:9px;
 }
-#filmes {
-	width:80%;
-	height:4650px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-	margin:50px auto 0px auto;
-	background-color:#232323;
-}
 #corpo {
 	width:80%;
 	height:1000px;
@@ -110,11 +103,12 @@ h1 {
 	color:white;
 	text-align:center;
 }
-#rodape {
-	width:100%;
-	height:80px;
+#filmes {
+	width:80%;
+	height:4570px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-	background-color:#ed1d24;
+	margin:50px auto 0px auto;
+	background-color:#232323;
 }
 #filmes figure {
 	position:relative;
@@ -124,6 +118,7 @@ h1 {
 	box-shadow: 1px 1px 4px black;
 	float:left;
 	margin-right:0;
+	margin-left:7%;
 }
 #filmes figure img {
 	width:100%;
@@ -157,6 +152,10 @@ h1 {
 	opacity:0.2;
 }
 #rodape {
+	width:100%;
+	height:80px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	background-color:#ed1d24;
 	position:relative;
 }
 #pr1 {
